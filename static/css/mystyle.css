@@ -30,6 +30,19 @@
     color: #666666;
 }
 
+.skoda-header {
+            background-color: #00473d;
+            padding: 20px;
+            text-align: center;
+}
+
+.skoda-logo {
+            color: #9deccf;
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 5px;
+}
+
 @media (max-width: 768px) {
     .responsive-heading {
         font-size: 1.5rem !important;  /* Adjust this value as needed */
