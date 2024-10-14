@@ -1,3 +1,4 @@
+{% from 'partials/company_card.html' import company_card %}
 
 {% extends "partials/base.html" %}
 
@@ -11,15 +12,25 @@ Skoda mobile app
 
 
 	<div class="container-md">
-		<h1> Skoda Insurance app </h1>
+		<div class="container-md p-2">
+		<h1> Skoda Insurance </h1>
+		</div>
 			<div class=" container-md skoda-box">
 				{% if user_insurance is not none %}
 				    <div class="container-md skoda-box-content">
-				        <h2>Active Insurance</h2>
-						<p>  Insurance company: {{ user_insurance['insurance_name'] }}  </p>
+				        <h2 class="responsive-heading">Active Insurance</h2>
 				    </div>
 				{% endif %}
-				{ % for company in companies %}
+			</div>
+			<div class=" container-md skoda-box">
+				{% if user_insurance is not none %}
+				    <div class="container-md skoda-box-content">
+				        <h2 class="responsive-heading">Profile Settings</h2>
+				    </div>
+				{% endif %}
+			</div>
+    		<div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+				{% for company in companies %}
 					{{ company_card(company) }}
 				{% endfor %}
 			</div>

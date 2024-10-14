@@ -7,4 +7,5 @@ class InsuranceCompany:
 		self.logo = data['logo']
 		self.webpage = data['webpage']
 		self.price = data['price']
+		self.insurance_types = data['insurance_types']
 	

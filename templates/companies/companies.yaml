@@ -1,11 +1,34 @@
 - title: Kooperativa pojišťovna, a.s.
-  description: Kooperativa pojišťovna, a.s. is a major Czech insurance company offering comprehensive car insurance. Their coverage includes mandatory liability insurance, collision, theft, and natural disaster protection, with optional add-ons like windshield insurance. They also provide roadside assistance and legal protection services. Kooperativa’s flexible plans allow drivers to tailor coverage to their needs for peace of mind on the road.
-  logo: "kooperativa.png" 
+  description: Average price 10- 15 euros
+  insurance_types: povinne ruceni, normal insurance, insurance for handicapped people, insurance for young drivers, insurance for seniors
+  logo: kooperativa.png
   price: 10
   webpage:  https://www.koop.cz/
 
-- title: Kooperativa pojišťovna, a.s.
-  description: Kooperativa pojišťovna, a.s. is a major Czech insurance company offering comprehensive car insurance. Their coverage includes mandatory liability insurance, collision, theft, and natural disaster protection, with optional add-ons like windshield insurance. They also provide roadside assistance and legal protection services. Kooperativa’s flexible plans allow drivers to tailor coverage to their needs for peace of mind on the road.
-  logo: "kooperativa.png" 
-  price: 20
+- title: Random pojišťovna, a.s.
+  description: Average price 10- 15 euros
+  insurance_types: povinne ruceni, normal insurance, insurance for handicapped people, insurance for young drivers, insurance for seniors
+  logo: kooperativa.png
+  price: 10
+  webpage:  https://www.koop.cz/
+
+- title: Random2 pojišťovna, a.s.
+  description: Average price 10- 15 euros
+  insurance_types: povinne ruceni, normal insurance, insurance for handicapped people, insurance for young drivers, insurance for seniors
+  logo: kooperativa.png
+  price: 10
+  webpage:  https://www.koop.cz/
+
+- title: Random2 pojišťovna, a.s.
+  description: Average price 10- 15 euros
+  insurance_types: povinne ruceni, normal insurance, insurance for handicapped people, insurance for young drivers, insurance for seniors
+  logo: kooperativa.png
+  price: 10
+  webpage:  https://www.koop.cz/
+
+- title: Random2 pojišťovna, a.s.
+  description: Average price 10- 15 euros
+  insurance_types: povinne ruceni, normal insurance, insurance for handicapped people, insurance for young drivers, insurance for seniors
+  logo: kooperativa.png
+  price: 10
   webpage:  https://www.koop.cz/
